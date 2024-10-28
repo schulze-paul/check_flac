@@ -19,5 +19,4 @@ for filename in tqdm(f):
 
 
 for filename in tqdm(errors):
-    process = subprocess.run(
-        ["flac", "-t", filename])
+    print(filename)
